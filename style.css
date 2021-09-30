@@ -1,0 +1,8 @@
+body{
+  height:100vn;
+  display:grid;
+  place-items:center;
+  background image:url(https://picsum.photos/1920);
+  background-size:cover;
+  background -position:center;
+}
