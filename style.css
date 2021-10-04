@@ -1,8 +1,89 @@
-body{
-  height:100vn;
-  display:grid;
-  place-items:center;
-  background image:url(https://picsum.photos/1920);
-  background-size:cover;
-  background -position:center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgba(212, 204, 204, 0);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  color: rgb(0, 68, 255);
+  border: 2px solid black;
+}
+h1 {
+  font-size: 250px;
+  text-align: center;
+  padding: 0;
+  margin: 0%;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url("https://picsum.photos/1080/720");
+  background-size: 100%;
+  background-height: 100%;
+  background-width: 100%;
+}
+
+form {
+  padding: 50px;
+  align-self: auto;
+}
+
+ul {
+  top: 0px;
+  left: 0;
+  right: 0;
+  position: 0;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: white;
+  padding: 10px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+input {
+  color: rgb(0, 0, 0);
+  background-color: #1eff004f;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+  font-size: 20px;
+  border: 3px solid black;
+}
+
+td {
+  padding: 5px;
+  width: 5px;
+  border: 3px solid rgb(0, 0, 0);
+  font-size: larger;
+}
+
+p {
+  margin: auto;
+  width: 50%;
+  border: 5px solid blueviolet;
+  padding: 20px;
+  font-size: larger;
+}
+
+#Daryll {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  border-radius: 50%;
+  border: 7px solid blueviolet;
+}
+
+#amapiano {
+  border: 5px solid blueviolet;
 }
