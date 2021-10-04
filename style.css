@@ -86,3 +86,10 @@ p {
   border-radius: 50%;
   border: 7px solid blueviolet;
 }
+.footer {
+  border: 3px solid blue;
+}
+:hover {
+  color: blue;
+  border: 2px solid blue;
+}
