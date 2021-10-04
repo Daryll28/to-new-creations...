@@ -91,5 +91,5 @@ p {
 }
 :hover {
   color: blue;
-  border: 2px solid blue;
+  text-underline-position: below;
 }
