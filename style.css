@@ -336,3 +336,10 @@ p3 {
 .contact:hover {
   color: rgb(21, 255, 0);
 }
+<<<<<<< HEAD
+.image {
+  width: 20%;
+  border: 7px solid rgb(21, 255, 0);
+}
+=======
+>>>>>>> db808a8b3f14e05622456d1a7b8b6f69c5ee0a5e
