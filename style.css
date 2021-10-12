@@ -298,7 +298,8 @@ p3 {
 #messagebox {
   border: 3px solid greenyellow;
 
-  font-size: large;
+  font-size: 20px;
+  color: black;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
     0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
   background-color: #1eff004f;
@@ -336,10 +337,8 @@ p3 {
 .contact:hover {
   color: rgb(21, 255, 0);
 }
-<<<<<<< HEAD
+
 .image {
   width: 20%;
   border: 7px solid rgb(21, 255, 0);
 }
-=======
->>>>>>> db808a8b3f14e05622456d1a7b8b6f69c5ee0a5e
