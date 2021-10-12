@@ -60,14 +60,16 @@ input {
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
     0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
   font-size: 20px;
-  border: 3px solid black;
+  border: 3px solid greenyellow;
+  text-align: left;
+  margin-left: 40%;
 }
 
 td {
   padding: 5px;
   width: 5px;
   border: 3px solid rgb(0, 0, 0);
-  font-size: xx-large;
+  font-size: large;
 }
 
 p {
@@ -84,13 +86,13 @@ p {
   margin-right: auto;
   margin-top: auto;
   border-radius: 50%;
-  border: 7px solid blueviolet;
+  border: 7px dashed greenyellow;
 }
 .footer {
   border: 3px solid blue;
 }
 :hover {
-  color: rgb(255, 0, 191);
+  color: rgb(21, 255, 0);
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
@@ -146,7 +148,8 @@ p {
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 230px;
+  gap: 100px;
+  width: fit-content;
 }
 
 /* Timeline Code */
@@ -290,4 +293,46 @@ h3 {
 }
 p3 {
   color: blueviolet;
+}
+
+#messagebox {
+  border: 3px solid greenyellow;
+
+  font-size: large;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+  background-color: #1eff004f;
+  margin-left: 40%;
+}
+.button {
+  transition-duration: 0.4s;
+  border: 3px dotted blue;
+  margin-left: 65%;
+  font-size: 25px;
+  background-color: greenyellow;
+  width: auto;
+}
+.button:hover {
+  background-color: #09daff; /* Green */
+  color: rgb(0, 0, 0);
+}
+.form {
+  margin-top: 10%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+}
+
+.form:hover {
+  color: yellow;
+}
+
+.google {
+  border: 6px solid greenyellow;
+}
+.contact {
+  text-align: center;
+  font-size: xx-large;
+}
+.contact:hover {
+  color: rgb(21, 255, 0);
 }
